@@ -1,0 +1,43 @@
+jsnop的作用，jsonp和cors的区别
+什么是jwt
+Redis未授权的利用方式
+Redis主从复制原理，前提要求
+常用的代理工具或端口转发工具
+目标不出网怎么搭代理
+Php反序列化和java反序列化的区别
+Fastjson反序列化
+Fastjson反序列化不出网怎么利用
+代码层面，fastjson反序列化漏洞的函数有哪些
+Fastjson有哪些利用链
+fastjson反序列化pass和passobject方法的区别
+Shiro反序列化
+shiro反序列化不出网怎么利用
+为什么AES密钥泄露之后就可以进行反序列化
+CC1链的原理
+weblogic常见漏洞
+Weblogic反序列化是基于哪些协议去实现的
+Struts2都有哪些漏洞
+内网怎么信息收集
+Bash反弹shell的命令的执行原理
+正相连接和反向连接的区别
+Msf的bind_tcp与reserve_tcp的区别
+内网不出网应该正向代理还是反向代理
+Udf提权原理，步骤
+Xp_cmdshell提权原理，步骤
+Linux和windows提权
+ml hash和ntml hash的区别
+金银票据的原理、区别、利用条件
+ntml中继攻击和哈希传递攻击的区别
+进行hash传递的前提
+怎么识别域控
+知道域控主机名之后怎么知道域控IP
+Linux和windows权限维持的一些方法
+域控的ntml hash存储在哪里
+怎么获取ntlm hash
+jndi注入的原理
+rmi和ldap的区别，分别在什么情况下利用
+获取域控权限有哪些思路
+Ms14-068的原理和利用过程
+kerberos端口
+横向移动方法
+Log4j漏洞原理
