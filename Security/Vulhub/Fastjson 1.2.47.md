@@ -2,7 +2,7 @@
 - **先查缓存**：代码会首先调用 `TypeUtils.getClassFromMapping(typeName)` 尝试从全局缓存 `mappings` 中获取类。
 - **后查黑名单**：只有在缓存中未命中时，才会继续执行黑名单校验。
 这意味着，**只要能让一个恶意类提前进入 `mappings` 缓存，后续引用它时就会直接返回，永远不会触发黑名单检测**。而 `java.lang.Class` 这个 JDK 基础类，恰好允许通过其 `val` 属性触发 `Class.forName()`，将任意类加载并缓存。
-具体利用步骤如1.2.24一样，只是通过Burp对RMI发送请求时需修改请求包
+具体利用步骤如[[Fastjson 1.2.24]]一样，只是通过Burp对RMI发送请求时需修改请求包
 ```
 POST / HTTP/1.1
 Host: 192.168.68.46:8090
