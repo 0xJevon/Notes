@@ -1,3 +1,12 @@
+---
+type: 复现
+status: active
+created: 2026-09-11
+updated: 2026-11-13
+tags: [红队, 初始访问, 组件, Shiro]
+本线: 按需查
+---
+
 返回包携带`rememberMe=deleteMe`确认使用Shiro
 ![[Shiro550-20260910.png]]
 通过ysoserial生成恶意序列化包，使用CB链

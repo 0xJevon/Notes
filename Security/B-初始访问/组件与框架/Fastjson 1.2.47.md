@@ -1,3 +1,12 @@
+---
+type: 复现
+status: active
+created: 2026-09-11
+updated: 2026-11-13
+tags: [红队, 初始访问, 组件, Fastjson]
+本线: 按需查
+---
+
 1.2.47和1.2.24最大的区别是增加了黑名单机制，Fastjson 在反序列化时，会调用`checkAutoType()` 方法来检查 `@type` 指定的类是否合法。在 1.2.47 中，该方法的执行顺序存在一个关键缺陷：
 - **先查缓存**：代码会首先调用 `TypeUtils.getClassFromMapping(typeName)` 尝试从全局缓存 `mappings` 中获取类。
 - **后查黑名单**：只有在缓存中未命中时，才会继续执行黑名单校验。

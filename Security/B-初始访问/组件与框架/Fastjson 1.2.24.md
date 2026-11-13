@@ -1,3 +1,12 @@
+---
+type: 复现
+status: active
+created: 2026-09-11
+updated: 2026-11-13
+tags: [红队, 初始访问, 组件, Fastjson]
+本线: 按需查
+---
+
 使用dnslog探测Fastjson反序列化是否存在
 ```
 POST / HTTP/1.1
