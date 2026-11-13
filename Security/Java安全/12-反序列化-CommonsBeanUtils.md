@@ -11,7 +11,7 @@ tags: [Java安全, 反序列化, CB]
 # 12 · 反序列化链 · CommonsBeanUtils
 
 > 查阅区 · **只查不读**，不进学习路径。原文拆自 `JAVA安全-全本`，正文一字未改，仅调标题层级与图片相对路径。
-> 什么时候翻：红队 M3；Shiro 无 CC 依赖时的主力链，与 Shiro 篇对照读
+> 什么时候翻：红队 M3；不依赖 CC 的 getter 链，Shiro 场景的主力，与 15 篇对照读
 
 ## CommonsBeanUtils 
 
