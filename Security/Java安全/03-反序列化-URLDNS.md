@@ -11,7 +11,7 @@ tags: [Java安全, 反序列化, URLDNS]
 # 03 · 反序列化链 · URLDNS
 
 > 查阅区 · **只查不读**，不进学习路径。原文拆自 `JAVA安全-全本`，正文一字未改，仅调标题层级与图片相对路径。
-> 什么时候翻：红队 M3 素材；本线只借它理解 HashMap.readObject → hashCode 的接法
+> 什么时候翻：M2–M3 素材；本线只借它理解 HashMap.readObject → hashCode 的接法
 
 ## URLDNS
 
