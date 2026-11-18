@@ -1,6 +1,6 @@
 ---
 type: 问题
-domain: D-提权
+domain: D-提权上线维持
 status: 待验证
 created: 2026-10-27
 tags: [windows, 提权, potato]

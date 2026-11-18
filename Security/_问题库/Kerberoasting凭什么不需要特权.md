@@ -1,6 +1,6 @@
 ---
 type: 问题
-domain: F-域渗透
+domain: E-内网与域
 status: 待验证
 created: 2026-10-27
 tags: [kerberos, 凭据]
